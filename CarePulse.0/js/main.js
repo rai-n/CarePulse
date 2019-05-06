@@ -236,8 +236,9 @@ $("#txt_Search").keyup( function() {
 }
 
 else {
-  $('.text4').find('span.s4').text('');
+  $('.text4').find('span.s4').text('There are no beds available.');
   document.getElementById("togglee").disabled = true;
+  /* A stub for further ideas*/
   $('.text5').find('span.s5').text('');
 
 }
